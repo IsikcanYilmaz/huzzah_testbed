@@ -8,7 +8,7 @@ esp-mqtt/lib/platform_idf.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/features.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/_intsup.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h \
+ /home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdlib.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/machine/ieeefp.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/_ansi.h \
@@ -137,7 +137,7 @@ esp-mqtt/lib/platform_idf.o: \
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h:
+/home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdlib.h:
 

@@ -22,7 +22,7 @@ driver/hw_timer.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/_intsup.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/jon/KODMOD/huzzah/ledc/build/include/sdkconfig.h \
+ /home/jon/KODMOD/huzzah_testbed/ledc/build/include/sdkconfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdlib.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/machine/stdlib.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/alloca.h \
@@ -102,7 +102,7 @@ driver/hw_timer.o: \
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/jon/KODMOD/huzzah/ledc/build/include/sdkconfig.h:
+/home/jon/KODMOD/huzzah_testbed/ledc/build/include/sdkconfig.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdlib.h:
 

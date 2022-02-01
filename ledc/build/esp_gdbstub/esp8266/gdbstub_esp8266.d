@@ -2,7 +2,7 @@ esp8266/gdbstub_esp8266.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp_gdbstub/esp8266/gdbstub_esp8266.c \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/uart_register.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
- /home/jon/KODMOD/huzzah/ledc/build/include/sdkconfig.h \
+ /home/jon/KODMOD/huzzah_testbed/ledc/build/include/sdkconfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdint.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/machine/_default_types.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/features.h \
@@ -32,7 +32,7 @@ esp8266/gdbstub_esp8266.o: \
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h:
 
-/home/jon/KODMOD/huzzah/ledc/build/include/sdkconfig.h:
+/home/jon/KODMOD/huzzah_testbed/ledc/build/include/sdkconfig.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdint.h:
 

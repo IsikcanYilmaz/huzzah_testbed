@@ -1,6 +1,6 @@
 source/esp_wifi.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/source/esp_wifi.c \
- /home/jon/KODMOD/huzzah/ledc/build/include/sdkconfig.h \
+ /home/jon/KODMOD/huzzah_testbed/ledc/build/include/sdkconfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_libc.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdint.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/machine/_default_types.h \
@@ -111,7 +111,7 @@ source/esp_wifi.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/source/phy.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_phy_init.h
 
-/home/jon/KODMOD/huzzah/ledc/build/include/sdkconfig.h:
+/home/jon/KODMOD/huzzah_testbed/ledc/build/include/sdkconfig.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_libc.h:
 

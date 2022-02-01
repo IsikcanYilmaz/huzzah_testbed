@@ -30,7 +30,7 @@ newlib/port/time.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/cdefs.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/stdio.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/assert.h \
- /home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h \
+ /home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_timer.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
@@ -127,7 +127,7 @@ newlib/port/time.o: \
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/assert.h:
 
-/home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h:
+/home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h:
 

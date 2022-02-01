@@ -29,7 +29,7 @@ xtensa/gdbstub_xtensa.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/xtensa/config/core-matmap.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp_gdbstub/esp8266/gdbstub_target_config.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp_gdbstub/private_include/esp_gdbstub_common.h \
- /home/jon/KODMOD/huzzah/ledc/build/include/sdkconfig.h \
+ /home/jon/KODMOD/huzzah_testbed/ledc/build/include/sdkconfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/soc.h
 
@@ -91,7 +91,7 @@ xtensa/gdbstub_xtensa.o: \
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp_gdbstub/private_include/esp_gdbstub_common.h:
 
-/home/jon/KODMOD/huzzah/ledc/build/include/sdkconfig.h:
+/home/jon/KODMOD/huzzah_testbed/ledc/build/include/sdkconfig.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h:
 

@@ -1,6 +1,6 @@
 src/bootloader_common.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/bootloader_support/src/bootloader_common.c \
- /home/jon/KODMOD/huzzah/ledc/build/include/sdkconfig.h \
+ /home/jon/KODMOD/huzzah_testbed/ledc/build/include/sdkconfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdint.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/machine/_default_types.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/features.h \
@@ -39,7 +39,7 @@ src/bootloader_common.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/bootloader_support/include/bootloader_common.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/bootloader_support/include/esp_flash_data_types.h
 
-/home/jon/KODMOD/huzzah/ledc/build/include/sdkconfig.h:
+/home/jon/KODMOD/huzzah_testbed/ledc/build/include/sdkconfig.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdint.h:
 

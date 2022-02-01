@@ -1,6 +1,6 @@
 src/fast_crypto/fast_crypto_internal-cipher.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/fast_crypto/fast_crypto_internal-cipher.c \
- /home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h \
+ /home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/utils/common.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/port/include/os.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_types.h \
@@ -81,7 +81,7 @@ src/fast_crypto/fast_crypto_internal-cipher.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/aes_alt.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/esp8266/esp_aes.h
 
-/home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h:
+/home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/utils/common.h:
 

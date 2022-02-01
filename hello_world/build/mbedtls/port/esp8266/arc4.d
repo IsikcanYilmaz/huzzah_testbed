@@ -21,7 +21,7 @@ port/esp8266/arc4.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/_intsup.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/ibus_data.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/util_assert.h \
- /home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h \
+ /home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/assert.h
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/errno.h:
@@ -66,7 +66,7 @@ port/esp8266/arc4.o: \
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/util_assert.h:
 
-/home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h:
+/home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/assert.h:
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/mbedtls/port/esp8266/arc4.c:

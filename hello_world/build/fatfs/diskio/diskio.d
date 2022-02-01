@@ -34,7 +34,7 @@ diskio/diskio.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/stdio.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/assert.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/fatfs/src/ffconf.h \
- /home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h \
+ /home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/param.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/syslimits.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/machine/endian.h \
@@ -139,7 +139,7 @@ diskio/diskio.o: \
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/fatfs/src/ffconf.h:
 
-/home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h:
+/home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/param.h:
 

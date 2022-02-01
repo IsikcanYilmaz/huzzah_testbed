@@ -1,6 +1,6 @@
 src/bootloader_init.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/bootloader_support/src/bootloader_init.c \
- /home/jon/KODMOD/huzzah/ledc/build/include/sdkconfig.h \
+ /home/jon/KODMOD/huzzah_testbed/ledc/build/include/sdkconfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/string.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/_ansi.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/newlib.h \
@@ -43,7 +43,7 @@ src/bootloader_init.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/pin_mux_register.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/rom_functions.h
 
-/home/jon/KODMOD/huzzah/ledc/build/include/sdkconfig.h:
+/home/jon/KODMOD/huzzah_testbed/ledc/build/include/sdkconfig.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/string.h:
 

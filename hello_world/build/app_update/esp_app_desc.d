@@ -33,7 +33,7 @@ esp_app_desc.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/spi_flash/include/esp_spi_flash.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/bootloader_support/include/esp_app_format.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_attr.h \
- /home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h
+ /home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/assert.h:
 
@@ -101,5 +101,5 @@ esp_app_desc.o: \
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_attr.h:
 
-/home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h:
+/home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h:
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/app_update/./esp_app_desc.c:

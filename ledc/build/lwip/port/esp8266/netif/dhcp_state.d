@@ -41,7 +41,7 @@ port/esp8266/netif/dhcp_state.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/vfs/include/sys/ioctl.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/include/sys/select.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_task.h \
- /home/jon/KODMOD/huzzah/ledc/build/include/sdkconfig.h \
+ /home/jon/KODMOD/huzzah_testbed/ledc/build/include/sdkconfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
@@ -203,7 +203,7 @@ port/esp8266/netif/dhcp_state.o: \
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_task.h:
 
-/home/jon/KODMOD/huzzah/ledc/build/include/sdkconfig.h:
+/home/jon/KODMOD/huzzah_testbed/ledc/build/include/sdkconfig.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 

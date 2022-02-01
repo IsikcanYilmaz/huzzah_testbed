@@ -10,7 +10,7 @@ library/ssl_x509.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/openssl/include/internal/ssl_methods.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/openssl/include/internal/ssl_dbg.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/openssl/include/platform/ssl_opt.h \
- /home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h \
+ /home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/openssl/include/platform/ssl_port.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_types.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/cdefs.h \
@@ -62,7 +62,7 @@ library/ssl_x509.o: \
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/openssl/include/platform/ssl_opt.h:
 
-/home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h:
+/home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/openssl/include/platform/ssl_port.h:
 

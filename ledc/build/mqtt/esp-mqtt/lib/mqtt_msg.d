@@ -19,7 +19,7 @@ esp-mqtt/lib/mqtt_msg.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/string.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/lib/include/mqtt_msg.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include/mqtt_config.h \
- /home/jon/KODMOD/huzzah/ledc/build/include/sdkconfig.h \
+ /home/jon/KODMOD/huzzah_testbed/ledc/build/include/sdkconfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/lib/include/platform.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/lib/include/platform_esp32_idf.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/FreeRTOS.h \
@@ -161,7 +161,7 @@ esp-mqtt/lib/mqtt_msg.o: \
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/include/mqtt_config.h:
 
-/home/jon/KODMOD/huzzah/ledc/build/include/sdkconfig.h:
+/home/jon/KODMOD/huzzah_testbed/ledc/build/include/sdkconfig.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/mqtt/esp-mqtt/lib/include/platform.h:
 

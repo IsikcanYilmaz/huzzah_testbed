@@ -1,6 +1,6 @@
 src/fast_crypto/fast_aes-unwrap.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/fast_crypto/fast_aes-unwrap.c \
- /home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h \
+ /home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/utils/includes.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdint.h \
@@ -80,7 +80,7 @@ src/fast_crypto/fast_aes-unwrap.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/aes_alt.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/mbedtls/port/include/esp8266/esp_aes.h
 
-/home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h:
+/home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/utils/includes.h:
 

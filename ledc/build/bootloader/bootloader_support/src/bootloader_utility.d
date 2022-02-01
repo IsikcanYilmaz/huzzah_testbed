@@ -1,6 +1,6 @@
 src/bootloader_utility.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/bootloader_support/src/bootloader_utility.c \
- /home/jon/KODMOD/huzzah/ledc/build/bootloader/../include/sdkconfig.h \
+ /home/jon/KODMOD/huzzah_testbed/ledc/build/bootloader/../include/sdkconfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/bootloader_support/include_priv/bootloader_config.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/bootloader_support/include/esp_flash_data_types.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/bootloader_support/include_priv/bootloader_utility.h \
@@ -22,7 +22,7 @@ src/bootloader_utility.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h
 
-/home/jon/KODMOD/huzzah/ledc/build/bootloader/../include/sdkconfig.h:
+/home/jon/KODMOD/huzzah_testbed/ledc/build/bootloader/../include/sdkconfig.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/bootloader_support/include_priv/bootloader_config.h:
 

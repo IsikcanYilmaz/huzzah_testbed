@@ -1,5 +1,5 @@
 ledc_example_main.o: \
- /home/jon/KODMOD/huzzah/ledc/main/ledc_example_main.c \
+ /home/jon/KODMOD/huzzah_testbed/ledc/main/ledc_example_main.c \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdio.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/_ansi.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/newlib.h \
@@ -22,7 +22,7 @@ ledc_example_main.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdint.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/_intsup.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/jon/KODMOD/huzzah/ledc/build/include/sdkconfig.h \
+ /home/jon/KODMOD/huzzah_testbed/ledc/build/include/sdkconfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdlib.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/machine/stdlib.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/alloca.h \
@@ -55,7 +55,15 @@ ledc_example_main.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/heap/port/esp8266/include/esp_heap_config.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/task.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/list.h \
- /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/ledc.h
+ /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/ledc.h \
+ /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/uart.h \
+ /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h \
+ /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/log/include/esp_log_internal.h \
+ /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/queue.h \
+ /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/gpio.h \
+ /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/pin_mux_register.h \
+ /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
+ /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/gpio_register.h
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdio.h:
 
@@ -101,7 +109,7 @@ ledc_example_main.o: \
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/jon/KODMOD/huzzah/ledc/build/include/sdkconfig.h:
+/home/jon/KODMOD/huzzah_testbed/ledc/build/include/sdkconfig.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdlib.h:
 
@@ -168,4 +176,20 @@ ledc_example_main.o: \
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/private/list.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/ledc.h:
-/home/jon/KODMOD/huzzah/ledc/main/./ledc_example_main.c:
+
+/home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/uart.h:
+
+/home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h:
+
+/home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/log/include/esp_log_internal.h:
+
+/home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/queue.h:
+
+/home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/gpio.h:
+
+/home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/pin_mux_register.h:
+
+/home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h:
+
+/home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/gpio_register.h:
+/home/jon/KODMOD/huzzah_testbed/ledc/main/./ledc_example_main.c:

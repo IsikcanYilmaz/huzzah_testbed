@@ -1,6 +1,6 @@
 source/reset_reason.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/source/reset_reason.c \
- /home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h \
+ /home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/string.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/_ansi.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/newlib.h \
@@ -40,7 +40,7 @@ source/reset_reason.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/heap/include/esp_heap_caps.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/heap/port/esp8266/include/esp_heap_config.h
 
-/home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h:
+/home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/string.h:
 

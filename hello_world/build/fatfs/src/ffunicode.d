@@ -2,7 +2,7 @@ src/ffunicode.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/fatfs/src/ffunicode.c \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/fatfs/src/ff.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/fatfs/src/ffconf.h \
- /home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h \
+ /home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/param.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/config.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/machine/ieeefp.h \
@@ -66,7 +66,7 @@ src/ffunicode.o: \
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/fatfs/src/ffconf.h:
 
-/home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h:
+/home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/param.h:
 

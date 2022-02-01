@@ -1,6 +1,6 @@
 src/fast_crypto/fast_sha256.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/fast_crypto/fast_sha256.c \
- /home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h \
+ /home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/utils/includes.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdint.h \
@@ -73,7 +73,7 @@ src/fast_crypto/fast_sha256.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/crypto/sha256.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/crypto/crypto.h
 
-/home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h:
+/home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/wpa_supplicant/src/utils/includes.h:
 

@@ -1,5 +1,5 @@
 hello_world_main.o: \
- /home/jon/KODMOD/huzzah/hello_world/main/hello_world_main.c \
+ /home/jon/KODMOD/huzzah_testbed/hello_world/main/hello_world_main.c \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdio.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/_ansi.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/newlib.h \
@@ -22,7 +22,7 @@ hello_world_main.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdint.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/sys/_intsup.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
- /home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h \
+ /home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdlib.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/machine/stdlib.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/alloca.h \
@@ -58,7 +58,13 @@ hello_world_main.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_system.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp_idf_version.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/spi_flash/include/esp_spi_flash.h \
- /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/spi_flash/include/spi_flash.h
+ /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/spi_flash/include/spi_flash.h \
+ /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_task.h \
+ /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/uart.h \
+ /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h \
+ /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/log/include/esp_log_internal.h \
+ /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/queue.h \
+ /home/jon/KODMOD/huzzah_testbed/hello_world/main/tasktest.h
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdio.h:
 
@@ -104,7 +110,7 @@ hello_world_main.o: \
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
-/home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h:
+/home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/include/stdlib.h:
 
@@ -177,4 +183,16 @@ hello_world_main.o: \
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/spi_flash/include/esp_spi_flash.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/spi_flash/include/spi_flash.h:
-/home/jon/KODMOD/huzzah/hello_world/main/./hello_world_main.c:
+
+/home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_task.h:
+
+/home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/driver/uart.h:
+
+/home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/log/include/esp_log.h:
+
+/home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/log/include/esp_log_internal.h:
+
+/home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/freertos/include/freertos/queue.h:
+
+/home/jon/KODMOD/huzzah_testbed/hello_world/main/tasktest.h:
+/home/jon/KODMOD/huzzah_testbed/hello_world/main/./hello_world_main.c:

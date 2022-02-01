@@ -48,7 +48,7 @@ tcpip_adapter_lwip.o: \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/vfs/include/sys/ioctl.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/newlib/newlib/port/include/sys/select.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_task.h \
- /home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h \
+ /home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/rom/ets_sys.h \
  /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp8266/include/esp8266/eagle_soc.h \
@@ -243,7 +243,7 @@ tcpip_adapter_lwip.o: \
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/esp_common/include/esp_task.h:
 
-/home/jon/KODMOD/huzzah/hello_world/build/include/sdkconfig.h:
+/home/jon/KODMOD/huzzah_testbed/hello_world/build/include/sdkconfig.h:
 
 /home/jon/KODMOD/esp/ESP8266_RTOS_SDK/components/freertos/port/esp8266/include/freertos/FreeRTOSConfig.h:
 
