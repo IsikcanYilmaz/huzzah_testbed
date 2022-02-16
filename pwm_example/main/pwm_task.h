@@ -7,5 +7,5 @@
 // PWM period 1000us(1Khz), same as depth
 #define PWM_PERIOD    (1000)
 
-void Pwm_TaskInit(void);
+bool Pwm_TaskInit(void);
 void Pwm_Task(void *params);

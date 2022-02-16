@@ -13,7 +13,7 @@ static const char *TAG = "uart";
 
 static QueueHandle_t uart0_queue;
 
-void Uart_TaskInit(void) // To be called by the app_main()
+bool Uart_TaskInit(void) // To be called by the app_main()
 {
   // Configure parameters of an UART driver,
   // communication pins and install the driver
@@ -28,6 +28,8 @@ void Uart_TaskInit(void) // To be called by the app_main()
 
   // Install UART driver, and get the queue.
   uart_driver_install(UART_NUM, RX_BUF_SIZE * 2, TX_BUF_SIZE * 2, QUEUE_SIZE, &uart0_queue, 0);
+
+  return true;
 }
 
 void Uart_Task(void *params)
@@ -45,8 +47,6 @@ void Uart_Task(void *params)
           {
             ESP_LOGI(TAG, "[UART DATA]: %d", event.size);
             uart_read_bytes(UART_NUM, dtmp, event.size, portMAX_DELAY);
-            /*ESP_LOGI(TAG, "[DATA EVT]:");*/
-            /*uart_write_bytes(UART_NUM, (const char *) dtmp, event.size);*/
             CmdShell_AppendToCommandBuf((char *)dtmp, event.size);
             break;
           }

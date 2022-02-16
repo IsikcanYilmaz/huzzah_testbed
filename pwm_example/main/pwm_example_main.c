@@ -26,10 +26,11 @@
 #include "driver/pwm.h"
 #include "driver/uart.h"
 
-#include "tasktest.h"
 #include "uart_task.h"
 #include "pwm_task.h"
 #include "cmd_shell_task.h"
+#include "rx_task_test.h"
+#include "tx_task_test.h"
 
 static const char *TAG = "pwm_example";
 
@@ -38,10 +39,14 @@ void app_main()
   Uart_TaskInit();
   Pwm_TaskInit();
   CmdShell_TaskInit();
+  Rx_TaskInit();
+  Tx_TaskInit();
   
   assert(xTaskCreate(Uart_Task, "uiT", ESP_TASK_MAIN_STACK, NULL, configMAX_PRIORITIES, NULL) == pdPASS);
   assert(xTaskCreate(CmdShell_Task, "uiT", ESP_TASK_MAIN_STACK, NULL, configMAX_PRIORITIES, NULL) == pdPASS);
   assert(xTaskCreate(Pwm_Task, "uiT", ESP_TASK_MAIN_STACK, NULL, configMAX_PRIORITIES, NULL) == pdPASS);
+  assert(xTaskCreate(Rx_Task, "uiT", ESP_TASK_MAIN_STACK, NULL, configMAX_PRIORITIES, NULL) == pdPASS);
+  assert(xTaskCreate(Tx_Task, "uiT", ESP_TASK_MAIN_STACK, NULL, configMAX_PRIORITIES, NULL) == pdPASS);
 
   while(1)
   {

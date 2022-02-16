@@ -23,10 +23,11 @@ static void CmdShell_TakeCommand(void)
   memset(&cmd_buf, 0x00, CMD_BUF_SIZE);
 }
 
-void CmdShell_TaskInit(void)
+bool CmdShell_TaskInit(void)
 {
   cmdShellInitialized = true;
   printf("CMD SHELL Initialized\n");
+  return true;
 }
 
 void CmdShell_AppendToCommandBuf(char *buf, uint16_t len)

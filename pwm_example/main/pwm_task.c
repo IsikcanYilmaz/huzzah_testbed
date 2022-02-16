@@ -24,13 +24,14 @@ int16_t phase[4] = {
     0, 0, 90, -90,
 };
 
-void Pwm_TaskInit(void)
+bool Pwm_TaskInit(void)
 {
   pwm_init(PWM_PERIOD, duties, 4, pin_num);
   pwm_set_channel_invert(0x1 << 0);
   pwm_set_phases(phase);
   pwm_start();
   printf("PWM TASK INITIALIZED\n");
+  return true;
 }
 
 void Pwm_Task(void *params)

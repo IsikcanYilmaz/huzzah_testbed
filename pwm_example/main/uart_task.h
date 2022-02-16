@@ -5,6 +5,6 @@
 #define QUEUE_SIZE (100)
 #define UART_NUM (UART_NUM_0)
 
-void Uart_TaskInit(void);
+bool Uart_TaskInit(void);
 void Uart_Task(void *params);
 #endif
