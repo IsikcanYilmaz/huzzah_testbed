@@ -13,19 +13,24 @@ bool Tx_TaskInit(void)
   return true;
 }
 
+uint16_t count = 0;
+
 void Tx_Task(void *params)
 {
   printf("TX Task created!!!\n");
   while(1) 
   {
-    uint32_t *rand_num_ptr = (uint32_t) pvPortMalloc(sizeof(uint32_t));
-    *rand_num_ptr = 1;
-    printf("TX Task generated random number 0x%x\n", (unsigned int) rand_num_ptr);
-    vPortFree(rand_num_ptr);
-    BaseType_t xstatus = xQueueSendToBack(RxTaskQueue, rand_num_ptr, 0);
-    /*uint32_t heap_size32 = heap_caps_get_minimum_free_size(MALLOC_CAP_32BIT);*/
-    /*uint32_t heap_size8 = heap_caps_get_minimum_free_size(MALLOC_CAP_8BIT);*/
-    /*printf("TX Task heap size 32 %d 8 %d\n", heap_size32, heap_size8);*/
-    vTaskDelay(1000 / portTICK_PERIOD_MS);
+    /*uint16_t *rand_num_ptr = malloc(sizeof(uint16_t));*/
+    uint16_t rand_num = (uint16_t) rand();
+    /**rand_num_ptr = (uint16_t) rand();*/
+    /*printf("TX Task generated random number 0x%x = %d\n", (unsigned int) rand_num_ptr, *rand_num_ptr);*/
+    printf("TX Task generated random number 0x%x = %d\n", (unsigned int) &rand_num, rand_num);
+    BaseType_t xstatus = xQueueSendToBack(RxTaskQueue, &rand_num, 0);
+    printf("TX Task xstatus == pdPASS %d\n", xstatus == pdPASS);
+    count++;
+    if (count == 4){
+      count = 0;
+      vTaskDelay(3000 / portTICK_PERIOD_MS);
+    }
   }
 }

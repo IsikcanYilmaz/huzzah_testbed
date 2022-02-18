@@ -5,7 +5,7 @@
 
 QueueHandle_t RxTaskQueue = NULL;
 
-const TickType_t xTicksToWait = pdMS_TO_TICKS(100);
+const TickType_t xTicksToWait = pdMS_TO_TICKS(1000);
 
 bool Rx_TaskInit(void)
 {
@@ -24,12 +24,11 @@ void Rx_Task(void *params)
   printf("RX Task created!!!\n");
   while(1) 
   {
-    uint16_t *rx_rand_num_ptr = NULL;
-    BaseType_t xstatus = xQueueReceive(RxTaskQueue, rx_rand_num_ptr, xTicksToWait);
+    uint16_t rx_rand_num = NULL;
+    BaseType_t xstatus = xQueueReceive(RxTaskQueue, &rx_rand_num, xTicksToWait);
     if (xstatus == pdPASS)
     {
-      printf("RX Task received rand num %d\n", *rx_rand_num_ptr);
-      free(rx_rand_num_ptr);
+      printf("RX Task received rand num %d\n", rx_rand_num);
     }
     else
     {
