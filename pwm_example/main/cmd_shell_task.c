@@ -8,6 +8,8 @@
 
 #include "cmd_shell_task.h"
 
+#include "i2c_manager.h"
+
 static const char *TAG = "cmd";
 
 static QueueHandle_t cmd_shell_queue;
@@ -21,6 +23,7 @@ static void CmdShell_TakeCommand(void)
   printf("CMD SHELL CMD: %s %d\n", cmd_buf, cmd_buf_tail);
   cmd_buf_tail = 0;
   memset(&cmd_buf, 0x00, CMD_BUF_SIZE);
+  I2CMan_Test();
 }
 
 bool CmdShell_TaskInit(void)

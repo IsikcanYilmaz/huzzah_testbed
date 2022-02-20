@@ -13,17 +13,14 @@ bool Tx_TaskInit(void)
   return true;
 }
 
-uint16_t count = 0;
 
 void Tx_Task(void *params)
 {
   printf("TX Task created!!!\n");
+  uint16_t count = 0;
   while(1) 
   {
-    /*uint16_t *rand_num_ptr = malloc(sizeof(uint16_t));*/
     uint16_t rand_num = (uint16_t) rand();
-    /**rand_num_ptr = (uint16_t) rand();*/
-    /*printf("TX Task generated random number 0x%x = %d\n", (unsigned int) rand_num_ptr, *rand_num_ptr);*/
     printf("TX Task generated random number 0x%x = %d\n", (unsigned int) &rand_num, rand_num);
     BaseType_t xstatus = xQueueSendToBack(RxTaskQueue, &rand_num, 0);
     printf("TX Task xstatus == pdPASS %d\n", xstatus == pdPASS);

@@ -31,6 +31,7 @@
 #include "cmd_shell_task.h"
 #include "rx_task_test.h"
 #include "tx_task_test.h"
+#include "i2c_manager.h"
 
 static const char *TAG = "pwm_example";
 
@@ -41,12 +42,14 @@ void app_main()
   CmdShell_TaskInit();
   Rx_TaskInit();
   Tx_TaskInit();
+
+  I2CMan_Init();
   
   assert(xTaskCreate(Uart_Task, "uiT", ESP_TASK_MAIN_STACK, NULL, configMAX_PRIORITIES, NULL) == pdPASS);
   assert(xTaskCreate(CmdShell_Task, "uiT", ESP_TASK_MAIN_STACK, NULL, configMAX_PRIORITIES, NULL) == pdPASS);
   assert(xTaskCreate(Pwm_Task, "uiT", ESP_TASK_MAIN_STACK, NULL, configMAX_PRIORITIES, NULL) == pdPASS);
-  assert(xTaskCreate(Rx_Task, "uiT", ESP_TASK_MAIN_STACK, NULL, configMAX_PRIORITIES, NULL) == pdPASS);
-  assert(xTaskCreate(Tx_Task, "uiT", ESP_TASK_MAIN_STACK, NULL, configMAX_PRIORITIES, NULL) == pdPASS);
+  /*assert(xTaskCreate(Rx_Task, "uiT", ESP_TASK_MAIN_STACK, NULL, configMAX_PRIORITIES, NULL) == pdPASS);*/
+  /*assert(xTaskCreate(Tx_Task, "uiT", ESP_TASK_MAIN_STACK, NULL, configMAX_PRIORITIES, NULL) == pdPASS);*/
 
   while(1)
   {
